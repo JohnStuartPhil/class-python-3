@@ -19,7 +19,7 @@ class Options:
         print('C: ', options[2])
         return options
     
-def content():
+def the_quiz():
     """Country, capital and two incorrect options stored here"""
     dictionary = [
         {
@@ -86,6 +86,5 @@ def content():
             print("Score", score)
         else:
             print("Sorry, you have chosen an incorrect option")
-            #print("The correct answer is", capital)
 
-content()
+the_quiz()
