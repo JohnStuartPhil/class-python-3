@@ -1,4 +1,4 @@
-import random
+#import random
 
 class Options:
     """Defines the options"""
@@ -13,7 +13,7 @@ class Options:
         """the question"""
         print(f"Question {self.number}: What is the capital of {self.country}?")
         options = [self.capital, self.incorrect_1, self.incorrect_2]
-        random.shuffle(options)
+        #random.shuffle(options)
         print('A: ', options[0])
         print('B: ', options[1])
         print('C: ', options[2])
@@ -84,3 +84,5 @@ def content():
         else:
             print("Sorry, you have chosen an incorrect option")
             print("The correct answer is", capital)
+
+content()
